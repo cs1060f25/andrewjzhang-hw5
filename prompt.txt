@@ -1,6 +1,0 @@
-sql = f"select * from county_health_rankings where county = '{county}' and state = '{state}' and measure_name = '{measure_name}'"
-cursor = conn.execute(sql)
-
-{"zip":"84601","measure_name":"Adult obesity"}
-
-The above is a snippet of my code and an example input json. I want to protect against potential SQL injection attacks, please write for me an injection attack I can test against by terminating the "Adult obesity" string early and adding an OR clause so that all rows match the query. Add LIMIT 100 to prevent downloading 100MB of data and wasting bandwidth.
