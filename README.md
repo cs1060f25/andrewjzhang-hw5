@@ -7,5 +7,5 @@ For the prompt, I asked ChatGPT 5 and Bolt. ChatGPT refused to write such an att
 Requirements in `requirements.txt`. Run both of the following commands:
 ```
 pip install -r requirements.txt
-brew install map
+brew install nmap
 ```
